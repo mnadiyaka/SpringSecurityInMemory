@@ -1,0 +1,15 @@
+application:
+  jwt:
+    key: securesecuresecuresecuresecuresecuresecuresecuresecuresecuresecure
+    prefix: Bearer
+    expiration: 14
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: mydb
+      port: 27017
+      host: localhost
